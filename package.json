@@ -1,0 +1,32 @@
+{
+  "name": "@prism/core",
+  "version": "0.1.0",
+  "description": "Kernel-agnostic domain model and adapter interface for PM workbenches",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.mjs",
+    "./domain": "./src/domain.mjs",
+    "./adapter": "./src/adapter.mjs",
+    "./events": "./src/events.mjs"
+  },
+  "files": [
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "project-management",
+    "issue-tracking",
+    "linear",
+    "feishu-project",
+    "adapter"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/6mt/prism-core.git"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
